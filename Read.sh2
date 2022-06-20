@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo " Welcome our store! "
+
+echo " Do you want car wash? "
+read XY
+
+if [ ${XY} = yes ]
+then
+
+echo " Please Drive around the corner and enter the wash room and don't forget to put you car in neutral "
+
+else
+echo " Please select your grade and make payment  ..."
+
+fi
